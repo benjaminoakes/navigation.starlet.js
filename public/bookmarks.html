@@ -10,6 +10,9 @@
   <DT><H3>Bookmarklets</H3></DT>
   <DL><p>
       <DT><A HREF="javascript:!function()%7Blocation.href%3Dlocation.protocol%2B%22%2F%2F%22%2Bdocument.domain%7D()%3B">Go to Root</A></DT>
+      <DT><A HREF="javascript:!function()%7Bvar%20t%3Dlocation.toString().match(%2F%5E(.*%3F)(0*)(%5Cd%2B)(%5B%5E%5Cd%5D*)%24%2F)%3Bif(t)%7Bvar%20o%3Dt%5B2%5D%2Ce%3Dt%5B3%5D%2Ci%3DString(Number(n)%2B1)%3Bo.length%3E0%26%26e.length%3Ei.length%26%26(o%3Do.substring(0%2Co.length-1))%2Clocation%3Dt%5B1%5D%2Bo%2Bi%2Bt%5B4%5D%7Delse%20alert(%22no%20number%20found%20in%20%22%2Blocation)%7D()%3B">Go to next</A></DT>
+      <DT><A HREF="javascript:!function()%7Bvar%20t%3Dlocation.toString().match(%2F%5E(.*%3F)(0*)(%5Cd%2B)(%5B%5E%5Cd%5D*)%24%2F)%3Bif(t)%7Bvar%20o%3Dt%5B2%5D%2Ce%3Dt%5B3%5D%2Ci%3DString(Number(n)-1)%3Bo.length%3E0%26%26e.length%3Ei.length%26%26(o%2B%3D%220%22)%2Clocation%3Dt%5B1%5D%2Bo%2Bi%2Bt%5B4%5D%7Delse%20alert(%22no%20number%20found%20in%20%22%2Blocation)%7D()%3B">Go to previous</A></DT>
       <DT><A HREF="javascript:!function()%7Bvar%20o%2Ci%3Bo%3Ddocument.domain.split(%22.%22).slice(1%2C3)%2Co.unshift(%22www%22)%2Ci%3Do.join(%22.%22)%2Clocation.href%3Dlocation.protocol%2B%22%2F%2F%22%2Bi%7D()%3B">Go to www</A></DT>
+      <DT><A HREF="javascript:!function()%7Bdocument.location%3D%22http%3A%2F%2Fcatpro.icpl.org%2Fiii%2Fencore%2Fsearch%3Flang%3Deng%26target%3D%22%2BencodeURIComponent(document.title)%7D()%3B">Look up at ICPL</A></DT>
   </DL>
 </DL>
