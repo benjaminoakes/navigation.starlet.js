@@ -15,3 +15,7 @@ To build:
 
     npm install
     ./build
+
+## Thanks
+
+Many of these were inspired by [jwz's bookmarklets](http://www.jwz.org/hacks/bookmarklets.html).
