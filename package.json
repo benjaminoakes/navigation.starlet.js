@@ -1,0 +1,6 @@
+{
+  "repository": "git@github.com:benjaminoakes/navigation.starlet.js.git",
+  "devDependencies": {
+    "starlet": "~0.0.2"
+  }
+}
