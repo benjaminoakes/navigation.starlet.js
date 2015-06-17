@@ -1,0 +1,2 @@
+#!/bin/sh
+starlet bookmarklets/* > public/bookmarks.html
